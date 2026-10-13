@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background: 
+        linear-gradient(135deg, rgba(6, 35, 20, 0.90), rgba(15, 56, 34, 0.90)), 
+        url('https://img.magnific.com/free-photo/blackboard-inscribed-with-scientific-formulas-calculations_1150-19413.jpg?semt=ais_hybrid&w=740&q=80');
+    
+    background-size: cover;          
+    background-position: center;     
+    background-attachment: fixed;    
+    
+    color: #f0fdf4;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Keep the rest of your styles below this */
+h1 {
+    color: #4ade80;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background: #0f3822;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border: 1px solid #166534;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-weight: 600;
+    color: #86efac;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+input {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    background-color: #062314;
+    border: 1px solid #15803d;
+    color: #f0fdf4;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4ade80;
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.35);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.4);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #15803d, #166534);
+    box-shadow: 0 6px 16px rgba(22, 163, 74, 0.6);
+    transform: translateY(-1px);
+}
+
+#output1 {
+    margin: 25px auto 0 auto;
+    width: 100%;
+    max-width: 450px;
+    border: 2px solid #4ade80;
+    box-shadow: 0 6px 20px rgba(74, 222, 128, 0.2);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #0f3822;
+    color: #dcfce7;
+    padding: 15px;
+    text-align: center;
+}
